@@ -3,7 +3,18 @@
 @tailwind utilities;
 
 .container{
-    max-width: 130rem;
-    marign: 0 auto;
+    max-width: 90rem;
+    margin: 0 auto;
     padding: 1.5rem;
 }
+
+.headercontainer{
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: .3rem;
+}
+
+
+
+
+

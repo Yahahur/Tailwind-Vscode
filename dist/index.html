@@ -8,31 +8,50 @@
     <script src="https://kit.fontawesome.com/5f4ff62a03.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header bg-gurey relative">
-<div class="container">
-    <div class="header bg-gurey  flex justify-between">
-        <h1 class="text-light text-[1.3rem]  items-center flex "><img class="h-auto mr-[1rem] max-w-[2rem]" src="./img/apple-touch-icon.png"  alt="">Visual Studio Code</h1>
-        <div class="toggle__menu p-[.5rem] space-y-[.3rem] max-w-[5rem] hover:bg-asul rounded hover:cursor-pointer">
-            <span class="block w-[2rem] h-[0.125rem] bg-light"></span>
-            <span class="block w-[2rem] h-[0.125rem] bg-light"></span>
-            <span class="block w-[2rem] h-[0.125rem] bg-light"></span>
+    <header class="header  bg-gurey">
+        <div class="headercontainer">
+    <div class="wrapper ">
+    <div class="header p-[.5rem] flex justify-between  ">
+        <h1 class="text-light text-[1.2rem]  items-center flex "><img class="h-auto mr-[1rem] max-w-[1.5rem] " src="./img/apple-touch-icon.png"  alt="">Visual Studio Code</h1>
+        <div class="header__text hidden sm:block pr-[50rem] pt-[.2rem]">
+            <ul class="vscode flex text-gray-400 gap-[1rem] ">
+                <li><a class=" hover:text-light" href="">Docs</a></li>
+                <li><a class=" hover:text-light" href="">Updates</a></li>
+                <li><a class=" hover:text-light" href="">Blog</a></li>
+                <li><a class=" hover:text-light" href="">API</a></li>
+                <li><a class=" hover:text-light" href="">Extension</a></li>
+                <li><a class=" hover:text-light" href="">FAQ</a></li>
+                <li><a class=" hover:text-light" href="">Learn</a></li>
+                </ul>
+            </div>
+        <div class="toggle__menu p-[.5rem] space-y-[.3rem] max-w-[5rem] hover:bg-asul rounded hover:cursor-pointer lg:hidden">
+            <span class="block w-[1.6rem] h-[0.125rem] bg-light"></span>
+            <span class="block w-[1.6rem] h-[0.125rem] bg-light"></span>
+            <span class="block w-[1.6rem] h-[0.125rem] bg-light"></span>
         </div>
-        
     </div>
-<div class="header__nav overflow-hidden h-[0rem] ">
-    <ul class="header__text flex flex-col gap-[1rem] bg-gurey text-light pt-[2rem] ">
-        <a href="">Docs</a>
-        <a href="">Updates</a>
-        <a href="">Blog</a>
-        <a href="">API</a>
-        <a href="">Extensions</a>
-        <a href="">FAQ</a>
-        <a href="">Learn</a>
-        <a href="">Search</a>
-        <a href=""><i class="fa-solid fa-download"></i> Download</a>
+    
+</div>
+<div class="header__nav overflow-hidden h-[0rem] overflow-y-scroll  ">
+    <ul class="header__text flex flex-col  bg-gurey text-light   ">
+        <a class="p-[.5rem] pl-[1rem]" href="">Docs</a>
+        <a class="p-[.5rem] pl-[1rem]" href="">Updates</a>
+        <a class="p-[.5rem] pl-[1rem]" href="">Blog</a>
+        <a class="p-[.5rem] pl-[1rem]" href="">API</a>
+        <a class="p-[.5rem] pl-[1rem]" href="">Extensions</a>
+        <a class="p-[.5rem] pl-[1rem]" href="">FAQ</a>
+        <a class="p-[.5rem] pl-[1rem]" href="">Learn</a>
+        <a class="p-[.5rem] pl-[1rem]" href="">Search</a>
+        <div class="download bg-blue-700 p-[1.2rem] hover:bg-blue-500 ">
+            <a href=""><i class="fa-solid fa-download"></i> Download</a>
+        </div>
     </ul>
 </div>
 </div>
+
+
+
+
 </header>
     <script src="./js/script.js"></script>
 </body>
